@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">way4R</string>
+    <string name="search">Search</string>
+    <string name="enter_location">Where do you want to go?</string>
+    <string name="map_type_normal">Normal</string>
+    <string name="map_type_none">None</string>
+    <string name="map_type_terrain">Terrain</string>
+    <string name="map_type_satellite">Satellite</string>
+    <string name="map_type_hybrid">Hybrid</string>
+    <string name="search_bar_placeholder">Enter Address, City or Zip Code</string>
+    <string name="todo">TODO</string>
+    <string name="gps">gps</string>
+    <string name="google_maps_API_key">AIzaSyBqOqntqEIPVxXPnEbYZIph1PqyMzSfLWw</string>
+    <string name="markerIcon1">Vista</string>
+    <string name="markerIcon2">Suspicious</string>
+    <string name="markerIcon3">Block</string>
+    <string name="markerIcon4">Crowd</string>
+    <string name="add_customized_marker">Add Customized Marker</string>
+    <string name="enter_marker_title">Enter Marker Title</string>
+    <string name="markerType">Select Marker Icon</string>
+    <string name="enter_marker_description">Enter Marker Description</string>
+    <string name="create">Create</string>
+    <string name="error_login_msg">Please fill any empty fields</string>
+    <string name="server_client_id">810612758682-l5fd7dhh8n6nuuajlklse3ugticdciep.apps.googleusercontent.com</string>
+    <string name="marker">Marker</string>
+    <string name="info">INFO</string>
+    <string name="picker">PICKER</string>
+    <string name="search1">SEARCHES</string>
+    <string name="logout">Logout</string>
+    <string name="app_logo">APP_LOGO</string>
+    <string name="way4r">Way4R</string>
+</resources>

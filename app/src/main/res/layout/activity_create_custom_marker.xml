@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".CreateCustomMarker">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.7"
+            android:text="@string/add_customized_marker"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bn_logout"
+            android:layout_width="65sp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.3"
+            android:background="#00519d"
+            android:text="@string/logout"
+            android:textColor="@color/white"
+            android:textColorHint="@color/background_light"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/MarkerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/enter_marker_title"
+            android:inputType="text"/>
+
+        <Spinner
+            android:id="@+id/SpinnerMarkerIconType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:entries="@array/markerIconlist"
+            android:prompt="@string/markerType"/>
+
+        <EditText
+            android:id="@+id/EditTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/enter_marker_description"
+            android:inputType="textMultiLine"
+            android:lines="5"/>
+
+</LinearLayout>
+

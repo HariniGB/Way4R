@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <fragment
+            android:id="@+id/mapFragment"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:elevation="10dp"
+            android:background="@drawable/white_board"
+            android:id="@+id/relLayout1"
+            tools:targetApi="lollipop">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/ic_magnify"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/ic_magnify"
+                    android:contentDescription="@string/search1" />
+
+                <AutoCompleteTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@+id/ic_magnify"
+                    android:layout_centerVertical="true"
+                    android:textSize="15sp"
+                    android:textColor="#000"
+                    android:id="@+id/input_search"
+                    android:background="@null"
+                    android:hint="@string/search_bar_placeholder"
+                    android:imeOptions="actionSearch"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/relLayout1"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/ic_gps"
+            android:src="@drawable/ic_gps"
+            android:contentDescription="@string/gps" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/place_picker"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/relLayout1"
+            android:src="@drawable/ic_map"
+            android:contentDescription="@string/picker" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/place_picker"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/place_info"
+            android:src="@drawable/ic_info"
+            android:contentDescription="@string/info" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/place_info"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/create_marker"
+            android:src="@drawable/ic_marker"
+            android:contentDescription="@string/marker" />
+
+</RelativeLayout>

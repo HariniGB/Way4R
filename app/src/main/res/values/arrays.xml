@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="markerIconlist">
+        <item>@string/markerIcon1</item>
+        <item>@string/markerIcon2</item>
+        <item>@string/markerIcon3</item>
+        <item>@string/markerIcon4</item>
+    </string-array>
+</resources>
