@@ -78,7 +78,7 @@ Third feature is to implement the Place Picker which has built-in  UI widget as 
 ### Googel Sign in
 Fourth feature is to allow users to drop markers on the map to notify other users about the place. This helps users to know new vista spots, or even blocks roads in advance which will help them to plan their walk accordingly. But not all users can drop markers because it might cause transferring of wrong informations. So, I have implemented Google SignIn feature which allows the user to login using their existing google account. User can logout at anytime. Only authenticated users are allowed to place the customized markers on the map.
 
-[![Way4R App](https://i.imgur.com/1AFpAgW.png)](https://i.imgur.com/1AFpAgW.png)[![Way4R App](https://i.imgur.com/a9m0D4I.png)](https://i.imgur.com/a9m0D4I.png)   
+[![Way4R App](https://i.imgur.com/1AFpAgW.png)](https://i.imgur.com/1AFpAgW.png)[![Way4R App](https://i.imgur.com/a9m0D4I.png?2)](https://i.imgur.com/a9m0D4I.png?2)   
 
 ### Customized Marker 
 Once the user log-in, the Add Customized Marker form shows up. I designed this form as an AlertDialog which checks for user authentication initially and on click of ‘Save’ button all the details that the user entered is saved in the SQLite database. If the form is incomplete or user left any of the fields blank, the data is not saved and the app prompts a message to the user. Once the data is saved successfully, the customized icon for ‘vista’ is shown on the map with the details. I have used various customized icons like road block, etc
