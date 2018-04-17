@@ -92,7 +92,7 @@ The performance of the Google APIs can be tracked in the Google developers conso
 
 ## Links 
 
-[Android Place Picker Document](https://developers.google.com/places/android-api/placepicker)
-[Sign In Document]  (https://developers.google.com/identity/sign-in/android/)
-[Google Maps API Document] (https://developers.google.com/maps/documentation/android-api/)
+- [Android Place Picker Document](https://developers.google.com/places/android-api/placepicker)
+- [Sign In Document](https://developers.google.com/identity/sign-in/android/)
+- [Google Maps API Document](https://developers.google.com/maps/documentation/android-api/)
  
